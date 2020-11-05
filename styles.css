@@ -12,12 +12,14 @@
 }
 
 .card {
-	height: 85vh; /*531px*/
-	width: 35%; /*358*/
+	height: 85vh; 
+	width: 35%;
 	border-radius: 10px;
 	margin: auto;
-	background:#000 url(https://unblast.com/wp-content/uploads/2018/10/Sky-Stars-Pattern-1024x762.jpg) repeat top center;
-	animation:move-twink-back 200s linear infinite;
+	background: #000
+		url(https://unblast.com/wp-content/uploads/2018/10/Sky-Stars-Pattern-1024x762.jpg)
+		repeat top center;
+	animation: move-twink-back 200s linear infinite;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -38,7 +40,6 @@
 	background: white;
 	width: 100%;
 	height: 15%;
-	border-radius: 10px;
 }
 
 h3 {
@@ -46,8 +47,12 @@ h3 {
 }
 
 @keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: -10000px 5000px;
+	}
 }
 
 @media (max-width: 800px) {
@@ -58,8 +63,8 @@ h3 {
 	}
 
 	.text {
-	height: 11%;
-    bottom: 12%;
+		height: 11%;
+		bottom: 12%;
 	}
 }
 
