@@ -73,3 +73,13 @@ h3 {
 		width: 50%;
 	}
 }
+
+@media (max-width: 545px) {
+	.card {
+		width: 90%;
+	}
+
+	.text {
+		bottom: 0;
+	}
+}
