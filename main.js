@@ -14,7 +14,7 @@ function init() {
 	);
 
 	//Init renderer
-	renderer = new THREE.WebGLRenderer({ alpha: true });
+	renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
 	renderer.setClearColor(0xffffff, 0);
 
 	//Set size (whole window)
